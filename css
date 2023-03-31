@@ -1,0 +1,28 @@
+.lion-maker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.lion {
+  position: relative;
+}
+
+.lion img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.controls label {
+  margin-right: 10px;
+}
